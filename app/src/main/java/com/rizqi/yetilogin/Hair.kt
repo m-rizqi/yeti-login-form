@@ -31,7 +31,8 @@ fun Hair(drawScope: DrawScope) {
         drawPath(
             path = hairPath,
             color = BlueOutline,
-            style = Stroke(width = strokeWidth, cap = StrokeCap.Round, join = StrokeJoin.Round))
+            style = Stroke(width = strokeWidth, cap = StrokeCap.Round, join = StrokeJoin.Round)
+        )
     }
 }
 
