@@ -21,6 +21,7 @@ import com.rizqi.yetilogin.ui.theme.BlueLight
 import com.rizqi.yetilogin.ui.theme.BlueOutline
 
 fun Body(drawScope: DrawScope) {
+
     val bodyPath = Path().apply {
         moveTo(193.3f, 135.9f)
         cubicTo(187.5f, 127.9f, 177.8f, 122.0f, 166.8f, 122.0f)

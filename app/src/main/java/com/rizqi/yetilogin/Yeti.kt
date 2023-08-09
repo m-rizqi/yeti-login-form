@@ -2,6 +2,7 @@ package com.rizqi.yetilogin
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
@@ -11,7 +12,7 @@ import com.rizqi.yetilogin.EarLeft
 
 @Composable
 fun Yeti() {
-    Canvas(modifier = Modifier.size(100.dp)) {
+    Canvas(modifier = Modifier.wrapContentSize()) {
         Body(drawScope = this)
         EarLeft(drawScope = this)
         EarRight(drawScope = this)
@@ -23,6 +24,8 @@ fun Yeti() {
         EyeRight(drawScope = this)
         Mouth(drawScope = this)
         Nose(drawScope = this)
+        ArmLeft(drawScope = this)
+        ArmRight(drawScope = this)
     }
 }
 
